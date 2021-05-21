@@ -40,8 +40,6 @@ body {
 }
 
 .carousel {
-    height: 620px;
-    background-color: gray;
     margin-bottom: 60px;
 }
 
@@ -54,6 +52,14 @@ body {
 .section h1 {
     font-size: 70px;
     margin-bottom: 35px;
+}
+
+.carousel-control-prev {
+    width: 125px;
+}
+
+.carousel-control-next {
+    width: 125px;
 }
 
 /* OTHER */
