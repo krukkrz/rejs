@@ -82,6 +82,10 @@ body {
     margin: 40px;
 }
 
+.map {
+    width: 100%;
+}
+
 /* OTHER */
 
 a:link {
