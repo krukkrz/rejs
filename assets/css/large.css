@@ -62,6 +62,26 @@ body {
     width: 125px;
 }
 
+.footer {
+    height: 405px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.social-text{
+    font-size: 37px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer img {
+    margin: 40px;
+}
+
 /* OTHER */
 
 a:link {
