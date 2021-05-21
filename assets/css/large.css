@@ -2,6 +2,10 @@
     --main-color: #2C3F91;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .content {
     max-width: 1366px;
     width: 100%;
@@ -38,8 +42,19 @@
 .carousel {
     height: 620px;
     background-color: gray;
+    margin-bottom: 60px;
 }
 
+.section {
+    color: var(--main-color);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section h1 {
+    font-size: 70px;
+    margin-bottom: 35px;
+}
 
 /* OTHER */
 
