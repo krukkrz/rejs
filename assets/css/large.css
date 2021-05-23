@@ -54,9 +54,19 @@ body {
     margin-bottom: 60px;
 }
 
+.section p {
+    margin-bottom: 35px;
+}
+
 .section h1 {
     font-size: 70px;
     margin-bottom: 35px;
+}
+
+.section h2 {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
 .carousel-control-prev {
