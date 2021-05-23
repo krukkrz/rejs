@@ -27,7 +27,7 @@
     <div class="container-fluid">
       <div class="content">
         <!-- HEADER -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light header">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="assets/img/logo.png">
@@ -42,7 +42,7 @@
               aria-label="Toggle navigation">
             </button>
             <div class="collapse navbar-collapse menu-items justify-content-center" id="navbar">     
-              <a href="." class="menu-item">HOME</a>
+              <a href="#" class="menu-item">HOME</a>
               <br>
               <a href="#offer" class="menu-item">OFERTA</a>
               <br>
@@ -63,44 +63,54 @@
         </nav>
 
         <!-- CAROUSEL -->
-        <div class="row">
-          <div class="col-12 carousel">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assets/img/desktop/desktop_1366x620_1.jpg" class="d-block w-100" alt="...">
+        <section id="home">
+          <div class="row">
+            <div class="col-12 carousel">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/desktop/desktop_1366x620_1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/desktop/desktop_1366x620_2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/desktop/desktop_1366x620_3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/desktop/desktop_1366x620_4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/desktop/desktop_1366x620_5.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img src="assets/img/desktop/desktop_1366x620_2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/desktop/desktop_1366x620_3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/desktop/desktop_1366x620_4.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="assets/img/desktop/desktop_1366x620_5.jpg" class="d-block w-100" alt="...">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
-                <span class="visually-hidden">Next</span>
-              </button>
             </div>
-          </div>
-        </div>
-
+          </div>  
+        </section>
+        
         <!-- OFFER -->
         <section class="section" id="offer">
           <div class="row">
             <div class="col-12">
               <h1>OFERTA</h1>
-              <p>Aliquam tortor magna, interdg cheum id massa ut, dapibus egestas orci. Praesent vitae vehicula est. Donec auctor semper orci, sed ultrices lectus fringilla eu. Cras sodales ultricies eros, quis pharetra ex tempor eget. Suspendisse tempor, risus et lobortis porttitor, mauris leo porttitor elit, id fringilla risus ipsum sed ante. Integer vestibulum, sapien a sagittis tincidunt, ex nulla hendrerit leo, vitae laoreet nunc est quis ipsum. Vestibulum tincidunt lorem at molestie condimentum. Donec a tellus ac sem fermentum efficitur nec a justo.</p>
+              <p>
+                Warka to idealne miejsce na <b>kajaki blisko Warszawy.</b> Miejscowość jest położona w centrum Mazowsza, zaledwie <b>54 km od stolicy.</b> Przez miejscowość przepływa urokliwa rzeka Pilica, która
+                słynie z piaszczystych brzegów i czystej wody.
+                Spokojny nurt rzeki sprawi, że zrelaksujesz się i odpoczniesz od zgiełku miasta. Płynąc będziesz
+                mijać zarówno <b>łąki, jak i lasy oraz kameralne plaże.</b> 
+                <br>
+                Pilica to rzeka, która łagodnie i czule przyjmie każdego przybysza: to idealny wybór <b>zarówno dla początkujących, jak i wprawionych kajakarzy.</b> Na trasie Białobrzegi-Warka znajdują się <b>dwa punkty gastronomiczne</b>, gdzie możesz zatrzymać
+                się na jedzenie. Oferujemy <b>transport uczestników i sprzętu.</b>
+              </p>
             </div>
           </div>
         </section>
@@ -156,35 +166,91 @@
 
         <!-- GALLERY -->
         <section class="section" id="gallery">
+          <h1>GALERIA</h1>
 
+          <div class="gallery"> 
 
-          
-          <div class="row">
-            <div class="col-12">
-              <h1>GALERIA</h1>
+            <div class="row gallery-row">
 
-
-              <div class="gallery"> 
-
-
+              <div class="col-3">
                 <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
-                  <div class="placeholder"></div>
+                  <img src="assets/img/desktop/placeholder.png">
                 </a>
-              
-                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
-                  <div class="placeholder"></div>
-                </a>
-              
-                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel2">
-                  <div class="placeholder"></div>
-                </a>
-              
-                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel2">
-                  <div class="placeholder"></div>
-                </a>
-                
               </div>
 
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel2">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel2">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+            </div>
+
+            <div class="row gallery-row">
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel2">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel2">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+            </div>
+
+            <div class="row gallery-row">
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel2">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
+
+              <div class="col-3">
+                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel2">
+                  <img src="assets/img/desktop/placeholder.png">
+                </a>
+              </div>
 
             </div>
           </div>
