@@ -86,6 +86,12 @@ body {
     width: 100%;
 }
 
+.placeholder {
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+}
+
 /* OTHER */
 
 a:link {
