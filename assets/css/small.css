@@ -1,0 +1,34 @@
+@media (max-width: 600px){
+    
+    .content {
+        max-width: 600px;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .header {
+        width: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }    
+
+    .navbar-toggler {
+        background-image: url("../img/mobile/menu_icon.png");
+        background-position: center;
+        background-size: cover;
+        height: 65px;
+        width: 80px;
+        border-style: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+}
