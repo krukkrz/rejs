@@ -1,23 +1,16 @@
-@media (max-width: 600px){
-    
+@media (max-width: 600px) {
     .content {
         max-width: 600px;
     }
-
     .gallery {
         display: none;
     }
-
     .phone {
         display: none;
     }
-    
     .header {
         width: 600px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }    
-
+    }
     .navbar-toggler {
         background-image: url("../img/mobile/menu_icon.png");
         background-position: center;
@@ -25,10 +18,20 @@
         height: 65px;
         width: 80px;
         border-style: none;
+        margin-right: 20px;
     }
-
     .navbar-toggler:focus {
         box-shadow: none;
     }
-
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .menu-items {
+        background-color: white;
+        margin-top: 0px;
+        border-style: none;
+        width: 100%;
+        flex-grow: unset;
+        z-index: 1;
+    }
 }
