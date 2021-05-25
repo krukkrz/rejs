@@ -21,6 +21,7 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
 }
 
 .menu-item {
@@ -32,6 +33,7 @@ body {
     color: var(--main-color);
     white-space: nowrap;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 .header {
@@ -56,15 +58,18 @@ body {
 
 .section p {
     margin-bottom: 35px;
+    font-size: 25.2px;
+    font-weight: 300;
 }
 
 .section h1 {
-    font-size: 70px;
-    margin-bottom: 35px;
+    font-size: 97px;
+    margin-bottom: 75px;
+    font-weight: 300;
 }
 
 .section h2 {
-    font-size: 21px;
+    font-size: 25.2px;
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -84,7 +89,7 @@ body {
 }
 
 .social-text{
-    font-size: 37px;
+    font-size: 50px;
     font-weight: bolder;
     margin-bottom: 10px;
 }
