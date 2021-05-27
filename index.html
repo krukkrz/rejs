@@ -40,6 +40,15 @@
               aria-label="Toggle navigation">
             </button>
             <div class="collapse navbar-collapse menu-items justify-content-center" id="navbar">     
+              <button 
+                class="navbar-toggler toggle-button closing-button" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbar" 
+                aria-controls="navbar" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+              </button>
               <a href="#" class="menu-item">HOME</a>
               <br>
               <a href="#offer" class="menu-item">OFERTA</a>
@@ -319,6 +328,13 @@
           /* options */ 
           nav: true
       });
+
+      const navLinks = document.querySelectorAll('.menu-items a')
+      const menuToggle = document.getElementById('navbar')
+      const bsCollapse = new bootstrap.Collapse(menuToggle)
+      navLinks.forEach((l) => {
+          l.addEventListener('click', () => { bsCollapse.toggle() })
+      })
     </script>
   </body>
 </html>
