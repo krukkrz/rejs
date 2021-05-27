@@ -8,8 +8,12 @@
     .phone {
         display: none;
     }
-    .header {
-        width: 600px;
+    .navbar-brand {
+        margin-left: 20px;
+    }
+    .row {
+        width: 100vw;
+        max-width: 100%;
     }
     .navbar-toggler {
         background-image: url("../img/mobile/menu_icon.png");
@@ -22,9 +26,6 @@
     }
     .navbar-toggler:focus {
         box-shadow: none;
-    }
-    .navbar-brand {
-        margin-left: 20px;
     }
     .menu-items {
         background-color: white;
