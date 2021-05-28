@@ -8,14 +8,14 @@
     .content {
         max-width: 600px;
     }
-    .gallery {
-        display: none;
-    }
     .phone {
         display: none;
     }
     .navbar-brand {
         margin-left: 20px;
+    }
+    .gallery-row img {
+        width: 100%;
     }
     .row {
         width: 100vw;
@@ -73,16 +73,25 @@
     .header {
         height: 100px;
     }
+    #home {
+        margin-top: -90px;
+    }
     .section {
         overflow: hidden;
         margin-bottom: 0px;
-    }
-    #home{
-        margin-top:-90px;
+        margin-top: 0px;
     }
     section::before {
         margin-top: 0px;
         height: 90px;
+    }
+    .section h1 {
+        font-size: 55px;
+        margin-bottom: 45px;
+    }
+    .section p {
+        font-size: 20px;
+        margin-bottom: 0px;
     }
     .slider {
         width: 100%;

@@ -113,7 +113,8 @@ section::before {
 }
 
 .footer img {
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .map {
