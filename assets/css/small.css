@@ -75,9 +75,14 @@
     }
     .section {
         overflow: hidden;
+        margin-bottom: 0px;
+    }
+    #home{
+        margin-top:-90px;
     }
     section::before {
-        margin-top: 90px;
+        margin-top: 0px;
+        height: 90px;
     }
     .slider {
         width: 100%;

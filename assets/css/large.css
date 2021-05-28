@@ -64,7 +64,8 @@ body {
 section::before {
     display: block;
     content: " ";
-    margin-top: 150px;
+    margin-top: -150px;
+    height: 150px; 
     visibility: hidden;
     pointer-events: none;
 }
