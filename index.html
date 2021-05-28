@@ -1,340 +1,379 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/large.css">
-    <link rel="stylesheet" href="assets/css/small.css">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/large.css">
+  <link rel="stylesheet" href="assets/css/small.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 
 
-    <link href="assets/js/dist/simple-lightbox.min.css" rel="stylesheet" />
-    <!-- As A Vanilla JavaScript Plugin -->
-    <script src="assets/js/dist/simple-lightbox.min.js"></script>
-    <!-- For legacy browsers -->
-    <script src="assets/js/dist/simple-lightbox.legacy.min.js"></script>
-    <script src="assets/js/dist/simple-lightbox.jquery.min.js"></script>
+  <link href="assets/js/dist/simple-lightbox.min.css" rel="stylesheet" />
+  <!-- As A Vanilla JavaScript Plugin -->
+  <script src="assets/js/dist/simple-lightbox.min.js"></script>
+  <!-- For legacy browsers -->
+  <script src="assets/js/dist/simple-lightbox.legacy.min.js"></script>
+  <script src="assets/js/dist/simple-lightbox.jquery.min.js"></script>
 
-    <title>Rejs - wypożyczalnia kajaków w Warce</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="content">
-        <!-- HEADER -->
-        <nav class="navbar navbar-expand-lg navbar-light header">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="assets/img/logo.png">
-            </a>
-            <button 
-              class="navbar-toggler toggle-button" 
-              type="button" 
-              data-bs-toggle="collapse" 
-              data-bs-target="#navbar" 
-              aria-controls="navbar" 
-              aria-expanded="false" 
-              aria-label="Toggle navigation">
+  <title>Rejs - wypożyczalnia kajaków w Warce</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="content">
+      <!-- HEADER -->
+      <nav class="navbar navbar-expand-lg navbar-light header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/mobile/logo.png">
+          </a>
+          <button class="navbar-toggler toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div class="collapse navbar-collapse menu-items justify-content-center" id="navbar">
+            <button class="navbar-toggler toggle-button closing-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             </button>
-            <div class="collapse navbar-collapse menu-items justify-content-center" id="navbar">     
-              <button 
-                class="navbar-toggler toggle-button closing-button" 
+            <a href="#" class="menu-item">HOME</a>
+            <br>
+            <a href="#offer" class="menu-item">OFERTA</a>
+            <br>
+            <a href="#paths" class="menu-item">TRASY</a>
+            <br>
+            <a href="#pricing" class="menu-item">CENNIK</a>
+            <br>
+            <a href="#contact" class="menu-item">KONTAKT</a>
+            <br>
+            <a href="#faq" class="menu-item">CZĘSTO ZADAWANE PYTANIA</a>
+            <br>
+            <a href="#gallery" class="menu-item">GALERIA</a>
+          </div>
+          <div class="phone">
+            <a href="tel:534 540 722">
+              534 540 722
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CAROUSEL -->
+      <section id="home">
+        <div class="row">
+          <div class="col-12 carousel large">
+            <div id="smallCarouselWithControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/desktop/desktop_1366x620_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/desktop/desktop_1366x620_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/desktop/desktop_1366x620_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/desktop/desktop_1366x620_4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/desktop/desktop_1366x620_5.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+        
+              
+              <button class="carousel-control-prev" 
                 type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navbar" 
-                aria-controls="navbar" 
-                aria-expanded="false" 
-                aria-label="Toggle navigation">
+                data-bs-target="#smallCarouselWithControls"
+                data-bs-slide="prev">
+                <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
+                <span class="visually-hidden">Previous</span>
               </button>
-              <a href="#" class="menu-item">HOME</a>
-              <br>
-              <a href="#offer" class="menu-item">OFERTA</a>
-              <br>
-              <a href="#paths" class="menu-item">TRASY</a>
-              <br>
-              <a href="#pricing" class="menu-item">CENNIK</a>
-              <br>
-              <a href="#contact" class="menu-item">KONTAKT</a>
-              <br>
-              <a href="#faq" class="menu-item">CZĘSTO ZADAWANE PYTANIA</a>
-              <br>
-              <a href="#gallery" class="menu-item">GALERIA</a>
-            </div>
-            <div class="phone">
-              <a href="tel:534 540 722">
-                534 540 722
-              </a>
+              <button class="carousel-control-next" 
+                type="button" 
+                data-bs-target="#smallCarouselWithControls"
+                data-bs-slide="next">
+                <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-        </nav>
 
-        <!-- CAROUSEL -->
-        <section id="home">
-          <div class="row">
-            <div class="col-12 carousel">
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item large active">
-                    <img src="assets/img/desktop/desktop_1366x620_1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item large">
-                    <img src="assets/img/desktop/desktop_1366x620_2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item large">
-                    <img src="assets/img/desktop/desktop_1366x620_3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item large">
-                    <img src="assets/img/desktop/desktop_1366x620_4.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item large">
-                    <img src="assets/img/desktop/desktop_1366x620_5.jpg" class="d-block w-100" alt="...">
-                  </div>
-<!-- 
-                  <div class="carousel-item small active">
-                    <img src="assets/img/mobile/mobile_600x1035_1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item small">
-                    <img src="assets/img/mobile/mobile_600x1035_2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item small">
-                    <img src="assets/img/mobile/mobile_600x1035_3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item small">
-                    <img src="assets/img/mobile/mobile_600x1035_4.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item small">
-                    <img src="assets/img/mobile/mobile_600x1035_5.jpg" class="d-block w-100" alt="...">
-                  </div> -->
+          <div class="col-12 carousel small slider">
+            <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/mobile/mobile_600x1035_1.jpg" class="d-block w-100" alt="...">
                 </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                <div class="carousel-item">
+                  <img src="assets/img/mobile/mobile_600x1035_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/mobile/mobile_600x1035_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/mobile/mobile_600x1035_4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/mobile/mobile_600x1035_5.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>  
+                            
+              <button class="carousel-control-prev" 
+                type="button" 
+                data-bs-target="#carouselWithControls"
+                data-bs-slide="prev">
+                <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" 
+                type="button" 
+                data-bs-target="#carouselWithControls"
+                data-bs-slide="next">
+                <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>  
-        </section>
-        
-        <!-- OFFER -->
-        <section class="section" id="offer">
-          <div class="row">
-            <div class="col-12">
-              <h1>OFERTA</h1>
-              <p>
-                Warka to idealne miejsce na <b>kajaki blisko Warszawy.</b> Miejscowość jest położona w centrum Mazowsza, zaledwie <b>54 km od stolicy.</b> Przez miejscowość przepływa urokliwa rzeka Pilica, która
-                słynie z piaszczystych brzegów i czystej wody.
-                Spokojny nurt rzeki sprawi, że zrelaksujesz się i odpoczniesz od zgiełku miasta. Płynąc będziesz
-                mijać zarówno <b>łąki, jak i lasy oraz kameralne plaże.</b> 
-                <br>
-                Pilica to rzeka, która łagodnie i czule przyjmie każdego przybysza: to idealny wybór <b>zarówno dla początkujących, jak i wprawionych kajakarzy.</b> Na trasie Białobrzegi-Warka znajdują się <b>dwa punkty gastronomiczne</b>, gdzie możesz zatrzymać
-                się na jedzenie. Oferujemy <b>transport uczestników i sprzętu.</b>
-              </p>
-            </div>
+        </div>
+      </section>
+
+      <!-- OFFER -->
+      <section class="section" id="offer">
+        <div class="row">
+          <div class="col-12">
+            <h1>OFERTA</h1>
+            <p>
+              Warka to idealne miejsce na <b>kajaki blisko Warszawy.</b> Miejscowość jest położona w centrum Mazowsza,
+              zaledwie <b>54 km od stolicy.</b> Przez miejscowość przepływa urokliwa rzeka Pilica, która
+              słynie z piaszczystych brzegów i czystej wody.
+              Spokojny nurt rzeki sprawi, że zrelaksujesz się i odpoczniesz od zgiełku miasta. Płynąc będziesz
+              mijać zarówno <b>łąki, jak i lasy oraz kameralne plaże.</b>
+              <br>
+              Pilica to rzeka, która łagodnie i czule przyjmie każdego przybysza: to idealny wybór <b>zarówno dla
+                początkujących, jak i wprawionych kajakarzy.</b> Na trasie Białobrzegi-Warka znajdują się <b>dwa punkty
+                gastronomiczne</b>, gdzie możesz zatrzymać
+              się na jedzenie. Oferujemy <b>transport uczestników i sprzętu.</b>
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- PATHS -->
-        <section class="section" id="paths">
-          <div class="row">
-            <div class="col-12">
-              <h1>TRASY</h1>
-              <p>
-                <b>Białobrzegi-Warka</b>, do wyboru odcinki o różnych długościach: <b>26 km, 17km, 7km i 5km.</b>
-                <br>
-                Na trasie znajdują się punkty gastronomiczne.
-              </p>
+      <!-- PATHS -->
+      <section class="section" id="paths">
+        <div class="row">
+          <div class="col-12">
+            <h1>TRASY</h1>
+            <p>
+              <b>Białobrzegi-Warka</b>, do wyboru odcinki o różnych długościach: <b>26 km, 17km, 7km i 5km.</b>
+              <br>
+              Na trasie znajdują się punkty gastronomiczne.
+            </p>
 
-              <p>
-                <b>Warka-Mniszew</b>, odcinek sługości <b>15 km.</b>
-              </p>
-              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39490.65341875408!2d21.138595942629614!3d51.78485514529458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4718e7354377e2ed%3A0x943bb41d59f97a62!2sWarka!5e0!3m2!1spl!2spl!4v1621617545523!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+            <p>
+              <b>Warka-Mniszew</b>, odcinek sługości <b>15 km.</b>
+            </p>
+            <iframe class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39490.65341875408!2d21.138595942629614!3d51.78485514529458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4718e7354377e2ed%3A0x943bb41d59f97a62!2sWarka!5e0!3m2!1spl!2spl!4v1621617545523!5m2!1spl!2spl"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- PRICING -->
-        <section class="section" id="pricing">
-          <div class="row">
-            <div class="col-12">
-              <h1>CENNIK</h1>
-              <p>Aliquam tortor magna, interdg cheum id massa ut, dapibus egestas orci. Praesent vitae vehicula est. Donec auctor semper orci, sed ultrices lectus fringilla eu. Cras sodales ultricies eros, quis pharetra ex tempor eget. Suspendisse tempor, risus et lobortis porttitor, mauris leo porttitor elit, id fringilla risus ipsum sed ante. Integer vestibulum, sapien a sagittis tincidunt, ex nulla hendrerit leo, vitae laoreet nunc est quis ipsum. Vestibulum tincidunt lorem at molestie condimentum. Donec a tellus ac sem fermentum efficitur nec a justo.</p>
-            </div>
+      <!-- PRICING -->
+      <section class="section" id="pricing">
+        <div class="row">
+          <div class="col-12">
+            <h1>CENNIK</h1>
+            <p>Aliquam tortor magna, interdg cheum id massa ut, dapibus egestas orci. Praesent vitae vehicula est. Donec
+              auctor semper orci, sed ultrices lectus fringilla eu. Cras sodales ultricies eros, quis pharetra ex tempor
+              eget. Suspendisse tempor, risus et lobortis porttitor, mauris leo porttitor elit, id fringilla risus ipsum
+              sed ante. Integer vestibulum, sapien a sagittis tincidunt, ex nulla hendrerit leo, vitae laoreet nunc est
+              quis ipsum. Vestibulum tincidunt lorem at molestie condimentum. Donec a tellus ac sem fermentum efficitur
+              nec a justo.</p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- CONTACT -->
-        <section class="section" id="contact">
-          <div class="row">
-            <div class="col-12">
-              <h1>KONTAKT</h1>
-              <p>Aliquam tortor magna, interdg cheum id massa ut, dapibus egestas orci. Praesent vitae vehicula est. Donec auctor semper orci, sed ultrices lectus fringilla eu. Cras sodales ultricies eros, quis pharetra ex tempor eget. Suspendisse tempor, risus et lobortis porttitor, mauris leo porttitor elit, id fringilla risus ipsum sed ante. Integer vestibulum, sapien a sagittis tincidunt, ex nulla hendrerit leo, vitae laoreet nunc est quis ipsum. Vestibulum tincidunt lorem at molestie condimentum. Donec a tellus ac sem fermentum efficitur nec a justo.</p>
-            </div>
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="row">
+          <div class="col-12">
+            <h1>KONTAKT</h1>
+            <p>Aliquam tortor magna, interdg cheum id massa ut, dapibus egestas orci. Praesent vitae vehicula est. Donec
+              auctor semper orci, sed ultrices lectus fringilla eu. Cras sodales ultricies eros, quis pharetra ex tempor
+              eget. Suspendisse tempor, risus et lobortis porttitor, mauris leo porttitor elit, id fringilla risus ipsum
+              sed ante. Integer vestibulum, sapien a sagittis tincidunt, ex nulla hendrerit leo, vitae laoreet nunc est
+              quis ipsum. Vestibulum tincidunt lorem at molestie condimentum. Donec a tellus ac sem fermentum efficitur
+              nec a justo.</p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- FAQ -->
-        <section class="section" id="faq">
-          <div class="row">
-            <div class="col-12">
-              <h1>CZĘSTO ZADAWANE <br> PYTANIA</h1>
+      <!-- FAQ -->
+      <section class="section" id="faq">
+        <div class="row">
+          <div class="col-12">
+            <h1>CZĘSTO ZADAWANE <br> PYTANIA</h1>
 
-              <h2>Co zabrać na kajaki?</h2>
-              <p>
-                Na kajaki warto zabrać słoik lub małą, zakręcaną plastikową beczkę, do której włożysz telefon i inne ważne przedmioty. Dzięki temu uchronisz swoje rzeczy przed ewentualnym zamoczeniem
-                <br>
-                W gorące dni zdecydowanie przyda Ci się nakrycie głowy, strój kąpielowy i krem do opalania. Ubiór dostosuj do pogody.
-                <br>
-                Pamiętaj, aby zabrać środek na komary – szczegulnie przy spływach dwudniowych owady mogą dokuczać wieczorami.
-                <br>
-                Przygotuj prowiant: napoje i jedzenie, które możesz schować do plecaka lub torebki i spakować do kajaku.
-                <br>
-                Klapki będą najbardziej odpowiednim obuwiem na kajaki.
-              </p>
+            <h2>Co zabrać na kajaki?</h2>
+            <p>
+              Na kajaki warto zabrać słoik lub małą, zakręcaną plastikową beczkę, do której włożysz telefon i inne ważne
+              przedmioty. Dzięki temu uchronisz swoje rzeczy przed ewentualnym zamoczeniem
+              <br>
+              W gorące dni zdecydowanie przyda Ci się nakrycie głowy, strój kąpielowy i krem do opalania. Ubiór dostosuj
+              do pogody.
+              <br>
+              Pamiętaj, aby zabrać środek na komary – szczegulnie przy spływach dwudniowych owady mogą dokuczać
+              wieczorami.
+              <br>
+              Przygotuj prowiant: napoje i jedzenie, które możesz schować do plecaka lub torebki i spakować do kajaku.
+              <br>
+              Klapki będą najbardziej odpowiednim obuwiem na kajaki.
+            </p>
 
-              <h2>Jak się ubrać na kajaki?</h2>
-              <p>
-                Na spływ kajakowy ubierz się w zależności od pogody. W gorący dzień koniecznie zabierz nakrycie
-                głowy, okulary przeciwsłoneczne i strój kąpielowy, ale pamiętaj też o bluzce, którą przykryjesz
-                ramiona w przypadku, gdy słońce zacznie Cię piec zbyt mocno.
-                <br>
-                W chłodniejsze dni warto zabrać ze sobą bluzę i kurtkę przeciwdeszczową.
-                Najbardziej odpowiednie buty na kajaki to klapki.
-              </p>
+            <h2>Jak się ubrać na kajaki?</h2>
+            <p>
+              Na spływ kajakowy ubierz się w zależności od pogody. W gorący dzień koniecznie zabierz nakrycie
+              głowy, okulary przeciwsłoneczne i strój kąpielowy, ale pamiętaj też o bluzce, którą przykryjesz
+              ramiona w przypadku, gdy słońce zacznie Cię piec zbyt mocno.
+              <br>
+              W chłodniejsze dni warto zabrać ze sobą bluzę i kurtkę przeciwdeszczową.
+              Najbardziej odpowiednie buty na kajaki to klapki.
+            </p>
 
-              <h2>Czy mogę zabrać dzieci na spływ kajakowy?</h2>
-              <p>
-                Dzieci na spływie powinny być pod opieką osób dorosłych, ktore posiadają umiejętność pływania.
-                W wypożyczalni “Rejs” każdy z uczestników otrzymuje kapok, który należy mieć na sobie
-                przez cały czas przebywania na wodzie.
-              </p>
-            </div>
+            <h2>Czy mogę zabrać dzieci na spływ kajakowy?</h2>
+            <p>
+              Dzieci na spływie powinny być pod opieką osób dorosłych, ktore posiadają umiejętność pływania.
+              W wypożyczalni “Rejs” każdy z uczestników otrzymuje kapok, który należy mieć na sobie
+              przez cały czas przebywania na wodzie.
+            </p>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <!-- GALLERY -->
-        <section class="section" id="gallery">
-          <h1>GALERIA</h1>
+      <!-- GALLERY -->
+      <section class="section" id="gallery">
+        <h1>GALERIA</h1>
 
-          <div class="gallery"> 
+        <div class="gallery">
 
-            <div class="row gallery-row">
+          <div class="row gallery-row">
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png" alt="1">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png" alt="1">
+              </a>
+            </div>
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png" alt="2">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png" alt="2">
+              </a>
+            </div>
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png" alt="3">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png" alt="3">
+              </a>
+            </div>
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png" alt="4">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png" alt="4">
+              </a>
+            </div>
 
-              <!-- next row -->
+            <!-- next row -->
 
-              <div class="col-3">
-                <a href="assets/img/desktop/placeholder.png" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/placeholder.png" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
 
             <!-- next row-->
 
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
-
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
-
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
-
-              <div class="col-3">
-                <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel1">
-                  <img src="assets/img/desktop/placeholder.png">
-                </a>
-              </div>
-
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_1.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
             </div>
+
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_2.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
+
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_3.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
+
+            <div class="col-3">
+              <a href="assets/img/desktop/desktop_1366x620_4.jpg" class="big" rel="rel1">
+                <img src="assets/img/desktop/placeholder.png">
+              </a>
+            </div>
+
           </div>
-        </section>       
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div class="row footer align-items-center">
-      <div class="col-12 center">
-        <div class="social-text">
-          <span>ODWIEDŹ NAS NA SOCIAL MEDIACH:</span>          
         </div>
-        <br>
-        <img src="assets/img/desktop/fb.png">
-        <img src="assets/img/desktop/insta.png">
-      </div>
+      </section>
     </div>
+  </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
-<
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script>
-      // As A Vanilla JavaScript Plugin
-      var gallery = new SimpleLightbox('.gallery a', { 
-          /* options */ 
-          nav: true
-      });
+  <!-- FOOTER -->
+  <div class="row footer align-items-center">
+    <div class="col-12 center">
+      <div class="social-text">
+        <span>ODWIEDŹ NAS NA SOCIAL MEDIACH:</span>
+      </div>
+      <br>
+      <img src="assets/img/desktop/fb.png">
+      <img src="assets/img/desktop/insta.png">
+    </div>
+  </div>
 
-      $('.menu-item').on('click',function() {
-        $('.navbar-collapse').collapse('hide');
-      });
-    </script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script>
+    // As A Vanilla JavaScript Plugin
+    var gallery = new SimpleLightbox('.gallery a', {
+      /* options */
+      nav: true
+    });
+
+    $('.menu-item').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+</body>
+
 </html>
