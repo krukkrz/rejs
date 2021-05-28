@@ -76,6 +76,9 @@
     .section {
         overflow: hidden;
     }
+    section::before {
+        margin-top: 90px;
+    }
     .slider {
         width: 100%;
         padding: 0px;

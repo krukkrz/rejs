@@ -61,6 +61,14 @@ body {
     margin-bottom: 60px;
 }
 
+section::before {
+    display: block;
+    content: " ";
+    margin-top: 150px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .section p {
     margin-bottom: 35px;
     font-size: 25.2px;
