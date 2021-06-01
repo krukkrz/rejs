@@ -17,6 +17,11 @@
     .gallery-row img {
         width: 100%;
     }
+
+    .gallery {
+        margin-bottom: 59px;
+    }
+
     .row {
         width: 100vw;
         max-width: 100%;
@@ -58,6 +63,17 @@
         z-index: 1;
         padding-top: 50px;
     }
+    .social-text {
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+
+    .footer img {
+        height: 30px;
+    }
+    .carousel {
+        margin-bottom: -9px;
+    }
     .closing-button {
         background-image: url("../img/mobile/close_mobile.png");
         background-position: center;
@@ -78,7 +94,7 @@
     }
     .section {
         overflow: hidden;
-        margin-bottom: 0px;
+        margin-bottom: -40px;
         margin-top: 0px;
     }
     section::before {
@@ -91,7 +107,6 @@
     }
     .section p {
         font-size: 20px;
-        /* margin-bottom: 0px; */
     }
     .slider {
         width: 100%;
