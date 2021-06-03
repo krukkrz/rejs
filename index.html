@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/large.css">
+  <link rel="stylesheet" href="assets/css/medium.css">
   <link rel="stylesheet" href="assets/css/small.css">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -66,7 +67,7 @@
       <section id="home">
         <div class="row">
           <div class="col-12 carousel large">
-            <div id="smallCarouselWithControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="largeCarouselWithControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="assets/img/desktop/desktop_1366x620_1.jpg" class="d-block w-100" alt="...">
@@ -86,12 +87,12 @@
               </div>
 
 
-              <button class="carousel-control-prev" type="button" data-bs-target="#smallCarouselWithControls"
+              <button class="carousel-control-prev" type="button" data-bs-target="#largeCarouselWithControls"
                 data-bs-slide="prev">
                 <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#smallCarouselWithControls"
+              <button class="carousel-control-next" type="button" data-bs-target="#largeCarouselWithControls"
                 data-bs-slide="next">
                 <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
                 <span class="visually-hidden">Next</span>
@@ -100,7 +101,7 @@
           </div>
 
           <div class="col-12 carousel small slider">
-            <div id="carouselWithControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="smallCarouselWithControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="assets/img/mobile/mobile_600x1035_1.jpg" class="d-block w-100" alt="...">
@@ -119,12 +120,45 @@
                 </div>
               </div>
 
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselWithControls"
+              <button class="carousel-control-prev" type="button" data-bs-target="#smallCarouselWithControls"
                 data-bs-slide="prev">
                 <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselWithControls"
+              <button class="carousel-control-next" type="button" data-bs-target="#smallCarouselWithControls"
+                data-bs-slide="next">
+                <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-12 carousel medium slider">
+            <div id="mediumCarouselWithControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/tablet/tablet_900x865_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/tablet/tablet_900x865_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/tablet/tablet_900x865_3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/tablet/tablet_900x865_4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/tablet/tablet_900x865_5.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#mediumCarouselWithControls"
+                data-bs-slide="prev">
+                <img src="assets/img/desktop/strzalka_lewo.png" aria-hidden="true">
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#mediumCarouselWithControls"
                 data-bs-slide="next">
                 <img src="assets/img/desktop/strzalka_prawo.png" aria-hidden="true">
                 <span class="visually-hidden">Next</span>
@@ -271,25 +305,25 @@
 
           <div class="row gallery-row">
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/1.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_1.png" alt="1">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/2.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_2.png" alt="2">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/3.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_3.png" alt="3">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/4.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_4.png" alt="4">
               </a>
@@ -297,25 +331,25 @@
 
             <!-- next row -->
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/5.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_5.png">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/6.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_6.png">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/7.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_7.png">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/8.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_8.png">
               </a>
@@ -323,25 +357,25 @@
 
             <!-- next row-->
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/9.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_9.png">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/10.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_10.png">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/11.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_11.png">
               </a>
             </div>
 
-            <div class="col-6 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
               <a href="assets/img/gallery_pics/12.jpg" class="big" rel="rel1">
                 <img src="assets/img/gallery_pics/thumbnails/310x310_web_12.png">
               </a>
